@@ -11,6 +11,14 @@ st.set_page_config(page_title='Evasão UFPB ' , page_icon='🗿', layout="wide",
 st.title("Evasão UFPB :rocket: ")
 st.markdown('Um pequeno dashboard que exibe os dados de evasão da **UFPB** por segmento de ingressants,curso e área')
 
+a = st.columns([1, 10])
+
+with a:
+    st.text("")
+    st.image('logo_ufpb.png', width=50)
+
+
+
 def figura_total():
 
     fig = px.line(dftotal, x="ANO", y=['EVASAO','_MASC','_FEM','_17_29','_30_MAIS','_BRANCA','_N_BRANCA','_DIURNO', '_NOTURNO', '_17_29', '_30_MAIS', '_BRANCA', '_N_BRANCA',
