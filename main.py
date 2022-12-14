@@ -17,7 +17,7 @@ st.markdown('Um pequeno dashboard que exibe os dados de evasão da **UFPB** por 
 with a:
     st.image('logo_ufpb.png', width=20)
     st.text("")
-with b 
+with b:
     st.image('logo_cdn.png', width=20)
     st.text("")
 
