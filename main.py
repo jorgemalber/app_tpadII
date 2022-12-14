@@ -13,7 +13,7 @@ dfarea=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/mai
 st.set_page_config(page_title='Evasão UFPB ' , page_icon='🗿', layout="wide", initial_sidebar_state="collapsed", menu_items=None)
 st.title("Evasão UFPB :rocket: ")
 st.markdown('Um pequeno dashboard que exibe os dados de evasão da **UFPB** por segmento de ingressants,curso e área')
-[a,b]=st.columns(3)
+a,b=st.columns(2)
 with a:
     st.image('logo_ufpb.png', width=20)
     st.text("")
