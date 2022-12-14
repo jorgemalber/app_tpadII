@@ -3,17 +3,19 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 
+st.text("")
+st.image('logo_ufpb.png', width=10)
+st.text("")
+st.image('logo_cdn.png', width=10)
+
 dftotal=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_grupo.csv')
 dfcurso=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_curso_grupo.csv')
 dfarea=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_area_grupo.csv')
 
+
 st.set_page_config(page_title='Evasão UFPB ' , page_icon='🗿', layout="wide", initial_sidebar_state="collapsed", menu_items=None)
 st.title("Evasão UFPB :rocket: ")
 st.markdown('Um pequeno dashboard que exibe os dados de evasão da **UFPB** por segmento de ingressants,curso e área')
-
-st.text("")
-st.image('logo_ufpb.png', width=50)
-
 
 
 def figura_total():
