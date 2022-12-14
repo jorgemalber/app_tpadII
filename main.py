@@ -3,9 +3,9 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 
-dftotal=pd.read_csv('c:\\Users\\DJOOJ\\Desktop\\Último trabalho aléssio\\trabalho_2_tpad2\\SA\\evasao_ano_grupo.csv')
-dfcurso=pd.read_csv('c:\\Users\\DJOOJ\\Desktop\\Último trabalho aléssio\\trabalho_2_tpad2\\SA\\evasao_ano_curso_grupo.csv')
-dfarea=pd.read_csv('c:\\Users\\DJOOJ\\Desktop\\Último trabalho aléssio\\trabalho_2_tpad2\\SA\\evasao_ano_area_grupo.csv')
+dftotal=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_grupo.csv')
+dfcurso=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_area_grupo.csv')
+dfarea=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_area_grupo.csv')
 
 st.set_page_config(page_title='Evasão UFPB ' , page_icon='🗿', layout="wide", initial_sidebar_state="collapsed", menu_items=None)
 st.title("Evasão UFPB :rocket: ")
