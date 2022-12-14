@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 dftotal=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_grupo.csv')
-dfcurso=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_area_grupo.csv')
+dfcurso=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_curso_grupo.csv')
 dfarea=pd.read_csv('https://raw.githubusercontent.com/jorgemalber/app_tpadII/main/evasao_ano_area_grupo.csv')
 
 st.set_page_config(page_title='Evasão UFPB ' , page_icon='🗿', layout="wide", initial_sidebar_state="collapsed", menu_items=None)
